@@ -34,5 +34,4 @@ public class CeilingFanOffCommand implements Command {
                 break;
         }
     }
-
 }

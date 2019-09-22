@@ -2,6 +2,9 @@ package com.company;
 
 import com.company.nocommand.NoCommand;
 
+/**
+ * Инициатор
+ */
 class RemoteControl {
 
     private Command[] onCommands;

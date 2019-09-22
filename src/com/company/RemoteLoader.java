@@ -48,6 +48,7 @@ public class RemoteLoader {
         MacroCommand partyOnMacro = new MacroCommand(partyOn);
         MacroCommand partyOffMacro = new MacroCommand(partyOff);
 
+        // Параметризация инициаторов командами
         remoteControl.setCommand(0, livingRoomLightOn, livingRoomLightOff);
         remoteControl.setCommand(1, kitchenLightOn, kitchenLightOff);
         remoteControl.setCommand(2, ceilingFanMedium, ceilingFanOff);
